@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta content="width=device-width, initial-scale=1" name="viewport" />
-	<link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="css/style.css" />
 
-	<title>Netflix</title>
-</head>
-<body>
-	<header>
-		
-	</header>
-	<main>
-		
-	</main>
-	<footer>
-		
-	</footer>
-</body>
+    <title>Netflix</title>
+  </head>
+  <body>
+    <header>
+      <picture>
+        <img src="/img/logo.svg" alt="">
+      </picture>
+    </header>
+    <main>
+      <div class="box">
+        <form>
+          <h1 class="entrar">Entrar</h1>
+          <input
+            type="email"
+            placeholder="Email ou numero de telefone"
+            class="areadetexto"
+            required/>
+          <input
+            type="password"
+            placeholder="Senha"
+            class="areadetexto"
+            required/>
+          <input type="submit" class="botão" value="Entrar" />
+          <input type="checkbox" name="lembrar" id="lembrar" />
+          <label for="lembrar">Lembrar de mim</label>
+          <span><a href="#" id="ajuda">Precisa de ajuda?</a></span>
+          <p>Novo por aqui? <a href="#" id="assine">Assine agora</a></p>
+          <p id="paragrafodebaixo">Esta pagina é protegida pelo Google reCAPTCHA para garantir que você
+            não é um robô.<a href="#">Saiba mais.</a>
+          </p>
+        </form>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
 </html>

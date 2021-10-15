@@ -46,14 +46,16 @@ font-family: 'Source Sans Pro', sans-serif;
 
 /* BODY */
 body{
-	
+	background-image: url("../img/background-image.jpg")
 }
 /* BODY */
 
 
 /* HEADER */
 header{
-	
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 100px;
 }
 /* HEADER */
 
@@ -64,10 +66,81 @@ footer{}
 
 
 /* PÁGINA INICIAL */
-main{
-	
-}
+
 /* PÁGINA INICIAL */
+.entrar{
+    color: white;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+form h1{
+    margin-left: 7px;
+}
+.box{
+    width: 450px;
+    display: flex;
+    max-width: 450px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: rgb(170, 170, 170);  
+    margin-top: 30px;
+}  
+form{
+    padding: 60px 68px 40px;
+}  
+.areadetexto{
+    background-color: #333333;
+    height: 50px;
+    width: 300px;
+    margin: 8px 8px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+.botão{
+    background-color: #e81024;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    height: 50px;
+    width: 315px;
+    border-radius: 5px;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+span, p, label{
+    font-size: 12px;
+    margin-left: 12px;
+}
+#lembrar{
+    margin-left: 11px;
+    font-size: 12px;
+}
+#ajuda{
+    margin-left: 80px;
+    color: rgb(170, 170, 170);
+    text-decoration: none;
+}
+#assine{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#paragrafodebaixo{
+    padding-bottom: 80px;
+}
+::placeholder{
+    color: #595959;
+}
+
+
+
+
 
 
 /* EXTRAS */
